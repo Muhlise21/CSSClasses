@@ -8,6 +8,11 @@
     src: url('./Fonts/Montserrat/Montserrat-Bold.ttf')
 }
 
+/* @font-face {
+    font-family: Fruktur;
+    src: url('./Fonts/Fruktur/Fruktur-Regular.ttf')
+} */
+
 
 * {
     font-size: 24px;
@@ -20,7 +25,9 @@
 }
 
 #head1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Fruktur', cursive;
+    font-style: italic;
+    font-weight:bolder;
     font-size:24px;
     margin: 2vh 5vw;
     color: rgb(123, 35, 147);
@@ -32,6 +39,7 @@
 }
 
 .title {
+    font-family: Fruktur;
     font-size: 2rem;
     margin: 2em; 
     background-color: antiquewhite;
@@ -73,6 +81,32 @@ h3.description {
     border-style: solid;
     border-color: red;
     color: #aeaeae;;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active { color:rgba(255, 0 , 0 )}
+
+a:visited { color: pink}
+
+a:hover { 
+    font-size: larger;
+    color: black;
+}
+
+ul {
+    margin: 10px;
+    padding: 0px;
+}
+
+.list {
+    border: 1px solid black;
+    list-style-type:disc;
+    list-style-position: outside;
+    margin: 0;
+    padding:0;
 }
 
 /* 0 1 2 3 4 .... 9 A B C D E F
