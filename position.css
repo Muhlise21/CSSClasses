@@ -1,0 +1,44 @@
+#first {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    /* display: inline-block;
+    position: relative;
+    left: 210px; */
+    /* position: relative;
+    left: 20px;
+    top: 50px */
+    /* margin-top: 50px; */
+     /* position: absolute;
+     right: 0;
+     bottom: 0; */
+
+}
+
+/* #container {
+    border: 1px solid gray;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 100px;
+} */
+
+#second {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    /* display: relative;
+    right: 100px; */
+    /* display: inline-block;
+    position: relative;
+    right: 100px; */
+}
+
+#third {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    /* display: inline-block;
+    position: relative;
+    right: 100px; */
+}

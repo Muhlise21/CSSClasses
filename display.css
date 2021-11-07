@@ -1,0 +1,13 @@
+h1, p {
+    border: 1px solid gray;
+}
+span{
+    border: 3px solid red;
+    /* display: none; */
+}
+
+#h2{
+    /* display: none; */
+    visibility: hidden;
+}
+
