@@ -1,0 +1,45 @@
+.container {
+    width: 80%;
+    margin: auto;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+#html-container, #css-container {
+    padding: 5vw;
+}
+
+h1 {
+    text-align: center;
+    color: palevioletred
+}
+
+p {
+    text-align: justify;
+}
+
+/* #description-html {
+    clear: left;
+}
+
+#description-css {
+    clear:right;
+} */
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius:30px;
+}
+
+#html {
+    float: left;
+    margin-right: 25px;
+}
+
+#css {
+    border-radius: 150px;
+    float: right;
+    margin-left: 25px;
+}
+
