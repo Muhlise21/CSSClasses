@@ -1,7 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 #first {
     background-color: red;
     width: 100px;
     height: 100px;
+    position: absolute;
+    left: 200px;
+    top:200px;
     /* display: inline-block;
     position: relative;
     left: 210px; */
@@ -27,17 +35,20 @@
     background-color: green;
     width: 100px;
     height: 100px;
-    /* display: relative;
-    right: 100px; */
-    /* display: inline-block;
-    position: relative;
-    right: 100px; */
+    /* position: relative;
+    bottom:100px; */
+
 }
 
 #third {
     background-color: blue;
     width: 100px;
     height: 100px;
+    position: relative;
+    left:100px;
+    /* position:absolute;
+    top: 100px;
+    left:100px; */
     /* display: inline-block;
     position: relative;
     right: 100px; */
