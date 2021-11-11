@@ -1,0 +1,26 @@
+#first-div{
+    background-color: burlywood;
+    height:20px;
+    width:500px;
+    margin: 2vh auto;
+    border: 5px solid red;
+    /* outline-style: dashed;
+    outline-width: 2px;
+    outline-color: cadetblue; */
+    outline-offset: 15px;
+    outline: 2px dotted red;
+}
+
+#second-div {
+    background-color:cadetblue;
+    height:20px;
+    /* max-width:750px; */
+    min-width: 500px;
+    margin: auto;
+}
+
+input {
+    margin: 20px;
+    outline: none
+    /* outline: 2px solid pink; */
+}
