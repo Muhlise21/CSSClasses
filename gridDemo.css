@@ -1,0 +1,33 @@
+.header1, .article1, .ads1, .footer1, .nav1 {
+    background-color: darkgoldenrod;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    padding: 20px;
+    color: antiquewhite;
+
+}
+.container {
+    display: grid;
+    grid-template-columns: 3fr 9fr 2fr;
+    grid-auto-rows: 1fr 9fr 1fr;
+    grid-gap: 2px;
+    height: 90vh;
+    
+
+    grid-template-areas:
+    "header header header"
+    "nav article ads"
+    "nav footer footer";
+
+}
+.header1 {
+    grid-area: header;
+}
+
+.nav1{
+    grid-area: nav
+}
+
+.footer1 {
+    grid-area: footer
+}
